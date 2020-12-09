@@ -1,7 +1,7 @@
 
 ![fraud](https://raw.githubusercontent.com/fcamuz/fraud-detection-for-mobile-transactions/master/images/Slide1.png)
 
-# A machine learning model for fraud detection in mobile  transactions
+# Big Data Analysis on Credit Card Fraud Detection Using Spark and Python
 
 A project we trained several machine learning models to detect fraud transactions on a large dataset with 6362620 transactions. 
 
