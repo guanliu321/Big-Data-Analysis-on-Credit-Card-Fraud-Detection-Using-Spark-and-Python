@@ -3,6 +3,16 @@
 
 # A machine learning model for fraud detection in mobile  transactions
 
+A project we trained several machine learning models to detect fraud transactions on a large dataset with 6362620 transactions. 
+
+#Use python to perform exploratory data analysis, transform data, and feature engineering.
+
+#Built five basic machine learning models to predict fraud detection, including Logistic Regression,KNN,Random Forest Classifier Random,XGB Classifier,SVM Classifier.And choose the two best models, XGBoost and RandomForest Models.
+
+#Using the technique of SMOTE to resample data and the technique of subsample Data from the Original Dataset to balance the data, and finally make the performance of XGBoost and Random Forest Models increase to 99%.
+
+#Utilized:Python,Spark,SQL,AWS,AmazonS3,Logistic Regression,KNN Classifier,Random Forest Classifier,XGB Classifier,SVM Classifier,SMOTE,Machine Learning. 
+
 ### Project Overview
 In this project I trained several models to detect fraud transactions. I have started 5 baseline models. Those are, LogisticRegression, KNeighborsClassifier, RandomForestClassifier, XGBClassifier, SupportVectorMachine Classifier. I continued to optimize top two models based on their train and test accuracy result. XGBoost and RandomForest Models. I have done five iterations including grid search on hyperparameters, balancing the labels by SMOTE and subsampling from the original dataset. Both RandomForest and XGBoost model had over 99% accuracy on the data that includes all frauds and some random safe data. The data was still imbalanced so I did SMOTE over this dataset as well. At the end of those iterations, **XGBoost model had 99% accuracy** on both train and test sets. Accuracy score was calculated by computing Area Under the Receiver Operating Characteristic Curve **(ROC AUC)** from prediction scores.  
 
